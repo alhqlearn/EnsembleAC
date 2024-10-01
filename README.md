@@ -32,8 +32,26 @@ Please clone two existing repositories (fastai and synthetic complexity score) a
 https://github.com/fastai/fastai1.git
 https://github.com/connorcoley/scscore.git
 ```
-# 1. For training of ensemble predictive model use Training_Ensemble_TL_Regressor.ipynb
-# 2. For generating novel set of ligands using transfer learning use TL_Generative.ipynb
-# 3. For predicting reactions obtained from novel set of ligands use Ensemble_TL_Regressor_For_Novel_Reactions.ipynb
-# 4. For different type of comparison plots like synthetic compleity score, physicochemical properties use Plots_Generated_Vs_Experimental.ipynb and Plots_SA&SC_Score.ipynb
+# Project Notebooks Overview
+
+This repository contains a series of Jupyter notebooks for building deep learning models, generating novel ligands, and performing %ee predictions.
+
+## Notebooks
+
+1. **Train Ensemble Predictive Model**
+   - Use the `Training_Ensemble_TL_Regressor.ipynb` notebook to train the ensemble model for predicting %ee of reactions.
+   
+2. **Generate Novel Ligands via Transfer Learning**
+   - Leverage the `TL_Generative.ipynb` notebook to generate novel ligands using transfer learning techniques.
+
+3. **Predict Reactions for Novel Ligands**
+   - Apply the `Ensemble_TL_Regressor_For_Novel_Reactions.ipynb` notebook to predict reactions based on the newly generated set of ligands.
+
+### Acknowledgements
+
+### Citations
+
+4. **Generate Comparison Plots**
+   - The `Plots_Generated_Vs_Experimental.ipynb` and `Plots_SA&SC_Score.ipynb` notebooks are used for creating various comparison plots, including synthetic complexity scores and physicochemical properties, to compare experimental versus predicted outcomes.
+
 
