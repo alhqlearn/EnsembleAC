@@ -30,7 +30,10 @@ pip install fcd-torch
 Please clone two existing repositories (fastai and synthetic complexity score) after creating your environment with Python 3.7.16.
 ```
 https://github.com/fastai/fastai1.git
-```
-```
 https://github.com/connorcoley/scscore.git
 ```
+# 1. For training of ensemble predictive model use Training_Ensemble_TL_Regressor.ipynb
+# 2. For generating novel set of ligands using transfer learning use TL_Generative.ipynb
+# 3. For predicting reactions obtained from novel set of ligands use Ensemble_TL_Regressor_For_Novel_Reactions.ipynb
+# 4. For different type of comparison plots like synthetic compleity score, physicochemical properties use Plots_Generated_Vs_Experimental.ipynb and Plots_SA&SC_Score.ipynb
+
