@@ -2,7 +2,7 @@
 Ensemble Deep Learning for Asymmetric Catalysis
 
 ## Overview
-<img align="middle" width="100%" src="Github_TOC.png">
+<img align="middle" width="100%" src="TOC.png">
 In this work, we demonstrate how reward shaping can render a policy gradient reinforcement learning (RL) approach a valuable tool for reaction discovery. Whereas we deploy RL to navigate the generation of novel practical molecules towards higher yield/selectivity regions, yield due to the newly generated molecules is predicted using a transfer learning model.
 
 ### Prerequisites
@@ -13,13 +13,11 @@ In this work, we demonstrate how reward shaping can render a policy gradient rei
 ### Environmental Setup
 
 ```
-conda create --name REEXPLORE python=3.7.16
-conda activate REEXPLORE
+conda create --name EnsembleAC python=3.7.16
+conda activate EnsembleAC
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 pip install seaborn
 pip install scikit-learn
-pip install tqdm
-pip install yaml
 pip install fastprogress
 pip install spacy
 pip install PyTDC
