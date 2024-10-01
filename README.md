@@ -47,11 +47,9 @@ This repository contains a series of Jupyter notebooks for building deep learnin
 3. **Predict Reactions for Novel Ligands**
    - Apply the `Ensemble_TL_Regressor_For_Novel_Reactions.ipynb` notebook to predict reactions based on the newly generated set of ligands.
 
-### Acknowledgements
-
-### Citations
-
 4. **Generate Comparison Plots**
    - The `Plots_Generated_Vs_Experimental.ipynb` and `Plots_SA&SC_Score.ipynb` notebooks are used for creating various comparison plots, including synthetic complexity scores and physicochemical properties, to compare experimental versus predicted outcomes.
 
+### Acknowledgements
 
+### Citations
