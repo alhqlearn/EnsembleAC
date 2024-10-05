@@ -1,9 +1,6 @@
 # EnsembleAC
 Ensemble Deep Learning for Asymmetric Catalysis
 
-## Overview
-\<img align="middle" width="100%" src="TOC.png">
-
 ## Significance
 The development of robust machine learning (ML) models for real-world reaction data can greatly enhance the current research efforts in asymmetric catalysis, where the objective is to selectively produce a desired stereoisomer (enantiomer) with high selectivity. This work addresses one of the key hurdles in reaction discovery with a relatively smaller data set, by integrating an ensemble DL model with wet-lab experimental validation, thus making it a practically useful tool. The results are significant as it deals with challenging situations of sparse and imbalanced data sets belonging to a prototypical asymmetric catalytic reaction. While our prospective validation of ML-generated reactions remains largely successful in reinforcing the fact that DL can effectively inform and guide reaction development, it also underscores the importance of having domain experts in vital decision-making.
 
@@ -26,7 +23,7 @@ Please clone two existing repositories (fastai and synthetic complexity score) a
 https://github.com/fastai/fastai1.git
 https://github.com/connorcoley/scscore.git
 ```
-# Project Notebooks Overview
+## Project Notebooks Overview
 
 This repository contains a series of Jupyter notebooks for building deep learning models, generating novel ligands, and performing %ee predictions.
 
