@@ -42,5 +42,27 @@ This repository contains a series of Jupyter notebooks for building deep learnin
    - The `Plots_Generated_Vs_Experimental.ipynb` and `Plots_SA&SC_Score.ipynb` notebooks are used for creating various comparison plots between the generated set and training set, including synthetic complexity scores and physicochemical properties.
 
 ### Acknowledgements
+We would like to acknowledge the following works, 
 
+https://github.com/Sunojlab/Transfer_Learning_in_Catalysis
+
+https://github.com/skinnider/low-data-generative-models
 ### Citations
+##  Citations
+
+If you find this code or work useful in your research, please cite:
+
+**Hoque, A.; Chang, T.; Yu, J.-Q.; Sunoj, R. B.** *Molecular Machine Learning Approach to Enantioselective C–H Bond Activation Reactions: From Generative AI to Experimental Validation.* **Chemical Science** **2025**, *16*, 13276–13290. DOI: [10.1039/D5SC01098E](https://doi.org/10.1039/D5SC01098E)
+
+### BibTeX
+```bibtex
+@article{Hoque2025_ML_C_H,
+  author    = {Hoque, A. and Chang, T. and Yu, J.-Q. and Sunoj, R. B.},
+  title     = {Molecular Machine Learning Approach to Enantioselective C--H Bond Activation Reactions: From Generative AI to Experimental Validation},
+  journal   = {Chemical Science},
+  year      = {2025},
+  volume    = {16},
+  pages     = {13276--13290},
+  doi       = {10.1039/D5SC01098E}
+}
+
